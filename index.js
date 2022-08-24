@@ -15,7 +15,8 @@ const emailForm = document.querySelector("#emailForm");
 
 const toast = document.querySelector(".toast");
 
-const baseURL =  "https://insharebynaitik.herokuapp.com";
+const baseURL = "https://shareit-application.herokuapp.com/";
+// const baseURL =  "https://insharebynaitik.herokuapp.com";
 // const baseURL = "https://innshare.herokuapp.com/"        // this is not working
 const uploadURL = `${baseURL}/api/files`;
 const emailURL = `${baseURL}/api/files/send`;
